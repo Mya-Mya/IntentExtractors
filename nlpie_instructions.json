@@ -1,0 +1,29 @@
+{
+    "QueryTypeDetectionProxies": {
+        "ETAGap": "To increase or decrease the eta gap between two flights.",
+        "Height": "To lower or raise the min or max height of indicate point 1 or indicate point 2 on a flight."
+    },
+    "ETAGapQuery": {
+        "ReferenceQuestion": "Which flight number is the interval between where the gap should be updated?",
+        "OperationProxies": {
+            "Increase": "We should increase the gap between the flights. We need more gap.",
+            "Decrease": "We should decrease the gap between the flights. We need less gap."
+        }
+    },
+    "HeightQuery": {
+        "ReferenceQuestion": "Which flight do we refer to?",
+        "OperationProxies": {
+            "Raise": "We should raise the height.",
+            "Lower": "We should lower the height."
+        },
+        "BoundaryProxies": {
+            "Min": "We refer to the min height.",
+            "Max": "We refer to the max height."
+        },
+        "IPProxies": {
+            "IP1": "We should ower or raise the height at indicate point 1.",
+            "IP2": "We should ower or raise the height at indicate point 2."
+        },
+        "IPQuestion":"At which indicate point do we refer to?"
+    }
+}
